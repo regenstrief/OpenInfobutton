@@ -1,3 +1,25 @@
+Forked from github Innovation-182 project in order to formalize a snapshot into something we can release.  RI-specific seed data is also committed in this branch.
+
+To summarize, we are using the oib-request-service module (i.e. web service), with MySQL database.
+
+The following instructions, prior to the 'Innovation-182' header, are RI-specific and will be tailored to how we use the project (i.e. oib-request-service).
+
+So, create the database and load the scripts/seed-data (according to the buildguide).  Then execute 'mvn
+
+Alex Franken
+
+
+
+
+
+
+
+
+
+
+
+
+
 Innovation-182
 ==============
 
