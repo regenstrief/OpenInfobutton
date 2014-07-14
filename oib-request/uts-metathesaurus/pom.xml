@@ -4,7 +4,7 @@
    <parent>
 	<groupId>org.openinfobutton</groupId>
 	<artifactId>org.regenstrief.oib.oib-request</artifactId>
-	<version>1.4-M3</version>
+	<version>1.4-SNAPSHOT</version>
   </parent>
  
   <groupId>UTSMetathesaurus</groupId>
