@@ -8,11 +8,11 @@ $Date:: 2011-02-24 1#$:  Date of last commit
    <modelVersion>4.0.0</modelVersion>
    <parent>
 	<groupId>org.openinfobutton</groupId>
-	<artifactId>oib-request</artifactId>
+	<artifactId>org.regenstrief.oib.oib-request</artifactId>
 	<version>1.4-SNAPSHOT</version>
   </parent>
 
-    <artifactId>oib-request-service</artifactId>
+    <artifactId>org.regenstrief.oib.oib-request-service</artifactId>
     <packaging>war</packaging>
 
     <name>oib-request-service</name>
@@ -71,11 +71,11 @@ $Date:: 2011-02-24 1#$:  Date of last commit
 		</dependency>
 	    <dependency>
 	  	  <groupId>org.openinfobutton</groupId>
-	  	  <artifactId>oib-request-schema</artifactId>
+	  	  <artifactId>org.regenstrief.oib.oib-request-schema</artifactId>
 	    </dependency>
 	    <dependency>
 	  	  <groupId>org.openinfobutton</groupId>
-	  	  <artifactId>oib-profile-schema</artifactId>
+	  	  <artifactId>org.regenstrief.oib.oib-profile-schema</artifactId>
 	    </dependency>
 	    
        <dependency>
@@ -130,7 +130,7 @@ $Date:: 2011-02-24 1#$:  Date of last commit
        </dependency>
        <dependency>
        	<groupId>org.openinfobutton</groupId>
-       	<artifactId>oib-request-db</artifactId>
+       	<artifactId>org.regenstrief.oib.oib-request-db</artifactId>
        	<scope>compile</scope>
        </dependency>
        <dependency>
@@ -197,11 +197,11 @@ $Date:: 2011-02-24 1#$:  Date of last commit
        </dependency>
        <dependency>
        	<groupId>edu.utah.openinfobutton</groupId>
-       	<artifactId>oib-request-inference-rxnorm</artifactId>
+       	<artifactId>org.regenstrief.oib.oib-request-inference-rxnorm</artifactId>
        </dependency>
        <dependency>
        	<groupId>edu.utah.openinfobutton</groupId>
-       	<artifactId>oib-ext-resources</artifactId>
+       	<artifactId>org.regenstrief.oib.oib-ext-resources</artifactId>
        </dependency>
        <dependency>
       	<groupId>com.google.code.gson</groupId>

@@ -3,11 +3,11 @@
 	
    <parent>
 	<groupId>org.openinfobutton</groupId>
-	<artifactId>oib-request</artifactId>
+	<artifactId>org.regenstrief.oib.oib-request</artifactId>
 	<version>1.4-SNAPSHOT</version>
   </parent>
 
-	<artifactId>oib-request-db</artifactId>
+	<artifactId>org.regenstrief.oib.oib-request-db</artifactId>
 	
    <repositories>
   		<repository>

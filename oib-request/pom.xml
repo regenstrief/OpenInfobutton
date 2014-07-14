@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
   	<groupId>org.openinfobutton</groupId>
-	<artifactId>oib-parent</artifactId>
+	<artifactId>org.regenstrief.oib.oib-parent</artifactId>
 	<version>1.4-SNAPSHOT</version>
   </parent>
-  <artifactId>oib-request</artifactId>
+  <artifactId>org.regenstrief.oib.oib-request</artifactId>
   <packaging>pom</packaging>
   <name>oib-request</name>
   

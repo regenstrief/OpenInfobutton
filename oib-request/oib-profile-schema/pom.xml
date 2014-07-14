@@ -8,11 +8,11 @@ $Date:: 2011-01-28 1#$:  Date of last commit
   <modelVersion>4.0.0</modelVersion>
    <parent>
 	<groupId>org.openinfobutton</groupId>
-	<artifactId>oib-request</artifactId>
+	<artifactId>org.regenstrief.oib.oib-request</artifactId>
 	<version>1.4-SNAPSHOT</version>
   </parent>
 
-  <artifactId>oib-profile-schema</artifactId>
+  <artifactId>org.regenstrief.oib.oib-profile-schema</artifactId>
   <name>oib-profile-schema</name>
   <description>Knowledge base schema</description>
   <build>

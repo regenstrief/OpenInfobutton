@@ -3,12 +3,12 @@
  
    <parent>
 	<groupId>org.openinfobutton</groupId>
-	<artifactId>oib-request</artifactId>
+	<artifactId>org.regenstrief.oib.oib-request</artifactId>
 	<version>1.4-SNAPSHOT</version>
   </parent>
  
   <groupId>UTSMetathesaurus</groupId>
-  <artifactId>uts-metathesaurus</artifactId>
+  <artifactId>org.regenstrief.oib.uts-metathesaurus</artifactId>
 
   <name>uts-metathesaurus</name>
   

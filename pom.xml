@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.openinfobutton</groupId>
-	<artifactId>oib-parent</artifactId>
+	<artifactId>org.regenstrief.oib.oib-parent</artifactId>
 	<version>1.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -38,45 +38,65 @@
 		<dependencies>
 			<dependency>
 				<groupId>edu.utah.openinfobutton</groupId>
-				<artifactId>oib-ext-resources</artifactId>
+				<artifactId>org.regenstrief.oib.oib-ext-resources</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.openinfobutton</groupId>
-				<artifactId>oib-profile-schema</artifactId>
+				<artifactId>org.regenstrief.oib.oib-profile-schema</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.openinfobutton</groupId>
-				<artifactId>oib-profile-schema</artifactId>
+				<artifactId>org.regenstrief.oib.oib-profile-schema</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.openinfobutton</groupId>
-				<artifactId>oib-request-db</artifactId>
+				<artifactId>org.regenstrief.oib.oib-request-db</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>edu.utah.openinfobutton</groupId>
-				<artifactId>oib-request-inference-rxnorm</artifactId>
+				<artifactId>org.regenstrief.oib.oib-request-inference-rxnorm</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>org.openinfobutton</groupId>
-				<artifactId>oib-request-schema</artifactId>
+				<artifactId>org.regenstrief.oib.oib-request-schema</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>org.openinfobutton</groupId>
-				<artifactId>oib-request-service</artifactId>
+				<artifactId>org.regenstrief.oib.oib-request-service</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>UTSMetathesaurus</groupId>
-				<artifactId>uts-metathesaurus</artifactId>
+				<artifactId>org.regenstrief.oib.uts-metathesaurus</artifactId>
+				<version>${openinfobutton.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.openinfobutton</groupId>
+				<artifactId>org.regenstrief.oib.oib-app-model</artifactId>
+				<version>${openinfobutton.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.openinfobutton</groupId>
+				<artifactId>org.regenstrief.oib.oib-app-service</artifactId>
+				<version>${openinfobutton.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>uts.nlm.nih.gov</groupId>
+				<artifactId>org.regenstrief.oib.uts-ws-client</artifactId>
+				<version>${openinfobutton.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>gov.nih.nlm.rxnav</groupId>
+				<artifactId>org.regenstrief.oib.rxnorm-rest-model</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
 		</dependencies>
