@@ -7,17 +7,17 @@
 	</parent>
 	<groupId>org.openinfobutton</groupId>
 	<artifactId>org.regenstrief.oib.oib-parent</artifactId>
-	<version>1.4.0</version>
+	<version>1.5.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<scm>
 		<connection>scm:git:https://tools.regenstrief.org/stash/scm/hl7t/openinfobutton</connection>
 		<developerConnection>scm:git:https://tools.regenstrief.org/stash/scm/hl7t/openinfobutton</developerConnection>
 		<url>https://tools.regenstrief.org/stash/scm/hl7t/openinfobutton</url>
-		<tag>1.4.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<properties>
-		<openinfobutton.version>1.4.0</openinfobutton.version>
+		<openinfobutton.version>1.5.0-SNAPSHOT</openinfobutton.version>
 	</properties>
 
 	<build>
