@@ -34,11 +34,6 @@
 			</dependency>
 			<dependency>
 				<groupId>org.openinfobutton</groupId>
-				<artifactId>org.regenstrief.oib.oib-profile-schema</artifactId>
-				<version>${openinfobutton.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.openinfobutton</groupId>
 				<artifactId>org.regenstrief.oib.oib-request-db</artifactId>
 				<version>${openinfobutton.version}</version>
 			</dependency>
